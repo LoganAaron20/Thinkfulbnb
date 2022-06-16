@@ -1,0 +1,283 @@
+/* -------  General Styles ------- */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0 10px 20px 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5em;
+
+}
+
+section {
+  padding: 20px;
+
+}
+
+section.alternate-background {
+  background-color: #00a699;
+
+  color: #fff;
+
+}
+
+main img {
+  width: 100%;
+
+}
+
+/* ---  Groups & Items --- */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 10px;
+
+}
+
+/* -------  Navigation ------- */
+
+header {
+  background-color: #ff385c;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+
+}
+
+.logo {
+  font-family: "Pangolin", cursive;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+
+}
+
+header nav {
+  padding-bottom: 10px;
+
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+header nav ul li {
+  list-style-type: none;
+
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+
+}
+
+header nav ul li:last-child {
+  padding: 0 20px 0 0;
+
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+
+}
+
+/* -------  Search Form ------- */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  border: 2px solid #ff385c;
+  padding: 10px;
+
+}
+
+form label {
+  font-weight: bold;
+
+}
+
+form select,
+form input {
+  margin-bottom: 20px;
+  width: 60%;
+
+}
+
+form div {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+
+form button {
+  background-color: #ff385c;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  font-size: 23px;
+
+}
+
+/* -------  Footer ------- */
+
+footer {
+  background-color: #ff385c;
+
+}
+
+footer p {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+}
+
+/* -------  Media Query ------- */
+
+
+
+
+
+@media all and (min-width: 480px) {
+  
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  header nav ul li {
+    list-style-type: none;
+    
+
+  }
+
+  header nav {
+    padding-bottom: 10px;
+   
+
+    
+  }
+
+  header nav ul li a {
+    padding: 0 20px 0 0;
+
+  }
+  
+  header nav ul li:last-child a {
+    padding-right: 0;
+  }
+  
+  header nav ul li a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
+    
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid #ff385c;
+    padding: 10px;
+    margin: 10px;
+
+  }
+
+   div {
+    font-size: 13px;
+    justify-content:flex-end;
+    margin: none;
+    align-items:center;
+  } 
+
+  
+
+  form div {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+  }
+
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+
+  }
+
+  form select,
+  form input {
+    margin-bottom: 0px;
+
+  }
+
+  .group {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+  }
+
+  .item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    
+  }
+
+  .item-double {
+    flex: 2;
+
+  }
+
+
+}
